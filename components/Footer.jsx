@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from "../styles/Footer.module.css"
-
+import Image from 'next/image';
 function Footer() {
   return (
-    <div className={style.container}>
+    <div className={styles.container}>
       <div className={styles.item}>
-        <Image src="/img/bg.png" layout="fill" alt=""/>
+        <Image src="/img/bg.png" layout="fill" alt="" objectFit='cover'/>
       </div>
        <div className={styles.item}>
           <div className={styles.card}>
